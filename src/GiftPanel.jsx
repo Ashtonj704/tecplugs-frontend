@@ -14,7 +14,7 @@ export default function GiftPanel({ onGiftSent }) {
     }
 
     try {
-      const res = await fetch("http://tecplugs-backend.onrender.com/api/gifts/send", {
+      const res = await fetch("https://tecplugs-backend.onrender.com/api/gifts/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

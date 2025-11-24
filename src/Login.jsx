@@ -10,7 +10,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://tecplugs-backend.onrender.com/api/auth/login", {
+      const res = await fetch("https://tecplugs-backend.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -38,7 +38,7 @@ export default function Login() {
 
   const handleRegister = async () => {
     try {
-      const res = await fetch("http://tecplugs-backend.onrender.com/api/auth/register", {
+      const res = await fetch("https://tecplugs-backend.onrender.com/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
