@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:5001";
+const SOCKET_URL = "http://tecplugs-backend.onrender.com";
 
 export default function LiveStream() {
   const [socket, setSocket] = useState(null);

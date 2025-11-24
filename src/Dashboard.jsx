@@ -15,7 +15,7 @@ export default function Dashboard() {
       return;
     }
 
-    fetch("http://localhost:5001/api/auth/me", {
+    fetch("http://tecplugs-backend.onrender.com/api/auth/me", {
       headers: {
         Authorization: "Bearer " + token,
       },

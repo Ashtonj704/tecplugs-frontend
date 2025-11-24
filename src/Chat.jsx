@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:5001";
+const SOCKET_URL = "http://tecplugs-backend.onrender.com";
 
 export default function Chat() {
   const [socket, setSocket] = useState(null);
